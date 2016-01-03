@@ -1,5 +1,6 @@
 #include "led.h"
 #include "usart.h"
+#include "printf.h"
 #include "stm32f10x_conf.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -28,6 +29,7 @@ static void usart1_task(void *args)
 {
 	for (;;) {
 		usart_send_string(USART1, (const char *)args);
+                usart_printf("hello_printf %d\n",5);
 		vTaskDelay(1000 / portTICK_PERIOD_MS);
 	}
 }
