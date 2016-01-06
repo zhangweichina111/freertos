@@ -18,10 +18,12 @@ void led_init(void)
 
 void led_on(GPIO_TypeDef* port, uint16_t pin)
 {
-	port->BSRR = pin;
+	// port->BSRR = pin;
+	GPIO_SetBits(port,pin);
 }
 
 void led_off(GPIO_TypeDef* port, uint16_t pin)
 {
-	port->BRR = pin;
+	// port->BRR = pin;
+	GPIO_SetBits(port,pin);
 }
