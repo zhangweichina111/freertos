@@ -1,0 +1,70 @@
+###############################################################################
+#                                                                             #
+#                                                       03/Jan/2016  15:29:43 #
+# IAR ANSI C/C++ Compiler V6.40.4.24170/W32 EVALUATION for ARM                #
+# Copyright 1999-2012 IAR Systems AB.                                         #
+#                                                                             #
+#    Cpu mode     =  thumb                                                    #
+#    Endian       =  little                                                   #
+#    Source file  =  D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\f #
+#                    ramework\src\led.c                                       #
+#    Command line =  D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\f #
+#                    ramework\src\led.c -D VECT_TAB_FLASH -D IAR_ARM_CM3      #
+#                    -lcN D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_ #
+#                    IAR\Debug\List\ --diag_suppress Pa082,pe191 -o           #
+#                    D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\D #
+#                    ebug\Obj\ --no_cse --no_unroll --no_inline               #
+#                    --no_code_motion --no_tbaa --no_clustering               #
+#                    --no_scheduling --debug --endian=little --cpu=Cortex-M3  #
+#                    -e --fpu=None --dlib_config "C:\Program Files (x86)\IAR  #
+#                    Systems\Embedded Workbench 6.4                           #
+#                    Evaluation\arm\INC\c\DLib_Config_Full.h" -I              #
+#                    D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\. #
+#                    \ -I D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_ #
+#                    IAR\STM32F10xFWLib\inc\ -I D:\project\freertos\FreeRTOS\ #
+#                    Demo\CORTEX_STM32F103_IAR\framework\inc\ -I              #
+#                    D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\a #
+#                    pp\inc\ -I D:\project\freertos\FreeRTOS\Demo\CORTEX_STM3 #
+#                    2F103_IAR\..\..\Source\include\ -I                       #
+#                    D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\. #
+#                    .\common\include\ -Ol --use_c++_inline                   #
+#                    --require_prototypes                                     #
+#    List file    =  D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\D #
+#                    ebug\List\led.lst                                        #
+#    Object file  =  D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\D #
+#                    ebug\Obj\led.o                                           #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+D:\project\freertos\FreeRTOS\Demo\CORTEX_STM32F103_IAR\framework\src\led.c
+      1          #include "led.h"
+      2          
+      3          /* Library includes. */
+      4          #include "stm32f10x_lib.h"
+      5          
+      6          void led_init(void)
+      7          {
+      8          
+      9          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+        0  led_init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       2  led_init
+
+ 
+ 2 bytes in section .text
+ 
+ 2 bytes of CODE memory
+
+Errors: none
+Warnings: none
